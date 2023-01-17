@@ -1,0 +1,1284 @@
+/* 子页面-顶部图片区域 开始 */
+.product-introduce {
+    position: relative;
+    text-align: center;
+}
+
+.product-introduce img {
+    width: 100%;
+}
+
+.product-introduce-fonts {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.product-introduce-title {
+    font-size: 52px;
+    font-weight: bolder;
+    line-height: 70px;
+}
+
+.product-introduce-english {
+    font-size: 16px;
+}
+
+/*文字阴影*/
+.product-introduce-title,
+.product-introduce-english {
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 50%);
+}
+
+.product-introduce-btns {
+    margin-top: 20px;
+}
+
+.product-introduce-btn {
+    width: 100px;
+    height: 35px;
+    line-height: 5px;
+    border-radius: 3px;
+    border: none;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.product-introduce-btn:hover {
+    background-color: #333333 !important;
+    color: #FFFFFF !important;
+}
+
+.product-introduce-btn:first-child {
+    background-color: #0073eb;
+}
+
+.product-introduce-btn:last-child {
+    color: #001040;
+}
+/* 子页面-顶部图片区域 结束 */
+
+/* 所有页面-Tab切换卡 开始 */
+.product-tabs .el-tabs__header {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 5%);
+    margin: 0;
+    z-index: 1;
+}
+
+.product-tabs .el-tabs__item {
+    height: 120px;
+    padding: 0;
+    text-align: center;
+    flex: 1;
+    transition: all 0.3s;
+}
+
+.product-tabs .el-tabs__nav {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    float: none;
+}
+
+.product-tabs .el-tabs__nav-wrap::after {
+    background-color: transparent;
+}
+
+.product-tabs .el-tabs__active-bar {
+    height: 5px;
+    background-color: #0073eb;
+}
+
+.tabs-icon {
+    width: 42px;
+    height: 45px;
+    display: inline-block;
+    margin-top: 40px;
+    float: left;
+}
+
+.autograph-icon {
+    background-image: url("../../assets/images/pki-web_12.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.authentication-icon {
+    background-image: url("../../assets/images/pki-web_17.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.drive-icon {
+    background-image: url("../../assets/images/pki-web_14.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.product-tabs .el-tabs__item:hover,
+.product-tabs .el-tabs__item.is-active span.tabs-text {
+    color: #0073eb;
+    display: inline-block;
+}
+
+.tabs-text {
+    display: inline-block;
+}
+
+.product-tabs .el-tabs__item.is-active .autograph-icon {
+    background-image: url("../../assets/images/pki-web_29.png");
+}
+
+.product-tabs .el-tabs__item.is-active .authentication-icon {
+    background-image: url("../../assets/images/pki-web_31.png");
+}
+
+.product-tabs .el-tabs__item.is-active .drive-icon {
+    background-image: url("../../assets/images/pki-web_30.png");
+}
+
+.product-tabs .el-tabs__item:hover .autograph-icon {
+    background-image: url("../../assets/images/pki-web_29.png");
+}
+
+.product-tabs .el-tabs__item:hover .authentication-icon {
+    background-image: url("../../assets/images/pki-web_31.png");
+}
+
+.product-tabs .el-tabs__item:hover .drive-icon {
+    background-image: url("../../assets/images/pki-web_30.png");
+}
+
+.tabs-fonts {
+    padding: 30px 0 0 20px;
+    float: right;
+}
+
+.tabs-fonts span {
+    display: block;
+    height: 26px;
+    text-align: center;
+}
+
+.tabs-english {
+    color: #a3a3a3;
+}
+
+.technical-support {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.tachnical-support-title {
+    text-align: center;
+    color: #333333;
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 80px;
+}
+
+.tachnical-support-text {
+    text-align: center;
+    color: #999999;
+    font-size: 16px;
+}
+
+.product-content {
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.product-introduction {
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.product-introduction-left-photo {
+    margin-right: 110px;
+}
+
+.product-introduction-fonts {
+    text-align: justify;
+}
+
+.product-introduction-title {
+    color: #333333;
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 80px;
+}
+
+.product-introduction-text {
+    color: #666666;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.product-section {
+    padding: 70px 0;
+}
+
+.product-type {
+    display: flex;
+    margin-top: 30px;
+}
+
+.product-type-item {
+    flex: 1;
+    background-color: #FFFFFF;
+    padding-top: 40px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.product-type-item:nth-child(1),
+.product-type-item:nth-child(2),
+.product-type-item:nth-child(3) {
+    margin-right: 15px;
+}
+
+.product-type-item-edition {
+    text-align: center;
+    color: #0073eb;
+    font-weight: bolder;
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.product-type-item-edition:after,
+.product-type-item-edition:before {
+    content: "";
+    width: 24%;
+    height: 1px;
+    background-color: #E4E3E3;
+    position: absolute;
+    top: 14px;
+}
+
+.product-type-item-edition:after {
+    left: 24px;
+}
+
+.product-type-item-edition:before {
+    right: 24px;
+}
+
+.product-type-projects {
+    min-height: 150px;
+}
+
+.product-type-project {
+    padding: 0 26px;
+    box-sizing: border-box;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.product-type-project-icon {
+    margin-right: 5px;
+    color: #0073eb;
+    font-size: 20px;
+}
+
+.product-type-project-text {
+    font-size: 16px;
+    color: #666666;
+}
+
+.product-type-details-jumps {
+    margin-top: 40px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    background-color: #0073eb;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.product-type-details-jumps i {
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.product-type-details-jump {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.product-type-details-jumps:hover {
+    background-color: #333333;
+}
+
+.product-advantage-item {
+    flex: 1;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.product-advantage-item:nth-child(1),
+.product-advantage-item:nth-child(2) {
+    margin-right: 15px;
+}
+
+.product-advantage-photo {
+    margin-bottom: 20px;
+}
+
+.product-advantage-title {
+    color: #444444;
+    font-size: 24px;
+    font-weight: bolder;
+    line-height: 50px;
+}
+
+.product-advantage-text {
+    font-size: 16px;
+    color: #666666;
+    line-height: 30px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.product-tabs .el-tabs__header {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 5%);
+    margin: 0;
+    z-index: 1;
+}
+
+.product-tabs .el-tabs__item {
+    height: 120px;
+    padding: 0;
+    text-align: center;
+    flex: 1;
+    transition: all 0.3s;
+}
+
+.product-tabs .el-tabs__nav {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    float: none;
+}
+
+.product-tabs .el-tabs__nav-wrap::after {
+    background-color: transparent;
+}
+
+.product-tabs .el-tabs__active-bar {
+    height: 5px;
+    background-color: #0073eb;
+}
+
+.tabs-icon {
+    width: 42px;
+    height: 45px;
+    display: inline-block;
+    margin-top: 40px;
+    float: left;
+}
+
+.about-us-icon {
+    background-image: url("../../assets/images/pki-web_40.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.qualification-icon {
+    background-image: url("../../assets/images/pki-web_32.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.customer-icon {
+    background-image: url("../../assets/images/pki-web_33.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.contact-icon {
+    background-image: url("../../assets/images/pki-web_34.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.product-tabs .el-tabs__item:hover,
+.product-tabs .el-tabs__item.is-active span.tabs-text {
+    color: #0073eb;
+    display: inline-block;
+}
+
+.tabs-text {
+    display: inline-block;
+}
+
+.product-tabs .el-tabs__item.is-active .about-us-icon {
+    background-image: url("../../assets/images/pki-web_35.png");
+}
+
+.product-tabs .el-tabs__item.is-active .qualification-icon {
+    background-image: url("../../assets/images/pki-web_37.png");
+}
+
+.product-tabs .el-tabs__item.is-active .customer-icon {
+    background-image: url("../../assets/images/pki-web_39.png");
+}
+
+.product-tabs .el-tabs__item.is-active .contact-icon {
+    background-image: url("../../assets/images/pki-web_38.png");
+}
+
+.product-tabs .el-tabs__item:hover .about-us-icon {
+    background-image: url("../../assets/images/pki-web_35.png");
+}
+
+.product-tabs .el-tabs__item:hover .qualification-icon {
+    background-image: url("../../assets/images/pki-web_37.png");
+}
+
+.product-tabs .el-tabs__item:hover .customer-icon {
+    background-image: url("../../assets/images/pki-web_39.png");
+}
+
+.product-tabs .el-tabs__item:hover .contact-icon {
+    background-image: url("../../assets/images/pki-web_38.png");
+}
+
+.tabs-fonts {
+    padding: 30px 0 0 20px;
+    float: right;
+}
+
+.tabs-fonts span {
+    display: block;
+    height: 26px;
+    text-align: center;
+}
+
+.tabs-title {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.tabs-english {
+    color: #a3a3a3;
+}
+
+.crumbs {
+    margin-bottom: 40px;
+}
+/* 关于我们-Tab切换卡 结束 */
+
+.technical-introduction {
+    margin-top: 15px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.technical-introduction-title {
+    border-bottom: 1px solid #DEDEDE;
+    height: 50px;
+    font-size: 24px;
+    color: #333333;
+    font-weight: bolder;
+    position: relative;
+}
+
+.technical-introduction-title:before {
+    content: "";
+    width: 47px;
+    height: 4px;
+    background-color: #0073eb;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.technical-introduction-text {
+    color: #666666;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 20px;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.case-item {
+    width: 590px;
+    float: left;
+    position: relative;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.case-item img {
+    width: 100%;
+}
+
+.case-item-left {
+    margin-right: 20px;
+}
+
+.case-item .news-fonts {
+    height: 90px;
+    padding: 16px 50px;
+    background-color: #FFFFFF;
+}
+
+.case-item .news-jump-icon {
+    margin-top: 17px;
+}
+
+.case-item:hover .news-title {
+    color: #0073eb;
+    transition: all 0.3s;
+}
+
+.case-no {
+    position: absolute;
+    bottom: 110px;
+    left: 30px;
+    font-size: 72px;
+    font-weight: bolder;
+    z-index: 10;
+}
+
+.case-english {
+    color: #999999;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.news-fonts {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    padding: 26px 20px;
+    background-color: #0073eb;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.news-time-title {
+    width: 80%;
+    display: inline-block;
+}
+
+.news-title {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 6px;
+    text-decoration: none;
+    color: #333333;
+    display: block;
+    transition: all 0.3s;
+}
+
+.news-jump-icon {
+    float: right;
+    margin-top: 22px;
+    transition: all 0.3s linear;
+}
+
+.case-item:hover .news-jump-icon {
+    transform: translateX(10px);
+    transition: all 0.3s linear;
+}
+/* 技术支持-Tab切换卡 结束 */
+/* 服务与支持-Tab切换卡 开始 */
+/* 服务与支持-Tab切换卡 外层div样式 */
+.techinical-tabs .el-tabs__header {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 5%);
+    margin: 0;
+    z-index: 1;
+}
+/* 服务与支持-Tab切换卡 切换卡子级 */
+.techinical-tabs .el-tabs__item {
+    height: 120px;
+    padding: 0;
+    text-align: center;
+    flex: 1;
+    transition: all 0.3s;
+}
+/* 服务与支持-Tab切换卡 切换卡组件外层div */
+.techinical-tabs .el-tabs__nav {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    float: none;
+}
+/* 服务与支持-Tab切换卡 去掉切换卡默认当前高亮伪类背景色 */
+.techinical-tabs .el-tabs__nav-wrap::after {
+    background-color: transparent;
+}
+/* 服务与支持-Tab切换卡 切换卡当前高亮样式 */
+.techinical-tabs .el-tabs__active-bar {
+    height: 5px;
+    background-color: #0073eb;
+}
+/* 服务与支持-Tab切换卡 鼠标悬停下切换卡标题文字样式和当前激活标题文字样式 */
+.techinical-tabs .el-tabs__item:hover .tabs-title,
+.techinical-tabs .el-tabs__item.is-active .tabs-title {
+    color: #0073eb;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 18px;
+}
+/* 服务与支持-Tab切换卡 切换卡文字div */
+.techinical-tabs .tabs-text {
+    display: inline-block;
+}
+/* 服务与支持-Tab切换卡 切换卡文字span标签样式 */
+.techinical-tabs .tabs-fonts span {
+    display: block;
+    height: 26px;
+    text-align: center;
+}
+/* 服务与支持-Tab切换卡 切换卡标题文字样式 */
+.techinical-tabs .tabs-title {
+    font-size: 18px;
+    line-height: 120px;
+    font-weight: normal;
+}
+/* 服务与支持-“下载路径”和“下载说明”版块 版块集合顶部外边距30px */
+.techinical-tabs .technical-introduction-route,
+.techinical-tabs .technical-introduction-table {
+    margin-top: 30px;
+}
+/* 服务与支持-“下载路径”版块 “下载路径”子级文字样式 */
+.techinical-tabs .technical-introduction-route-item {
+    display: block;
+    color: #0073eb;
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-top: 30px;
+    transition: all 0.3s;
+}
+/* 服务与支持-“下载路径”版块 鼠标悬停下“下载路径”子级文字样式 */
+.techinical-tabs .technical-introduction-route-item:hover {
+    color: #333333;
+}
+/* 服务与支持-“下载说明”版块 表格边框 */
+.techinical-tabs .technical-introduction-table .el-table {
+    border: 1px solid #E9E9E9;
+}
+/* 服务与支持-“下载说明”版块 表格背景色、文字样式 */
+.techinical-tabs .technical-introduction-table .el-table__row {
+    background-color: #eef5fd;
+    font-size: 18px;
+    color: #666666;
+}
+/* 服务与支持-“下载说明”版块 表格第一列文字粗体 */
+.techinical-tabs .technical-introduction-table .el-table__row td:first-child {
+    font-weight: bolder;
+}
+/* 服务与支持-“下载说明”版块 去掉默认表格行的边框 */
+.techinical-tabs .technical-introduction-table .el-table td.el-table__cell,
+.techinical-tabs .technical-introduction-table .el-table th.el-table__cell.is-leaf {
+    border: none;
+}
+/* 服务与支持-Tab切换卡 结束 */
+/* 最新动态-Tab切换卡 开始 */
+/* 最新动态-Tab切换卡 “新闻”图标 */
+.news-icon {
+    background-image: url("../../assets/images/pki-web_44.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+/* 最新动态-Tab切换卡 “公告发布信息”图标 */
+.announcement-icon {
+    background-image: url("../../assets/images/pki-web_46.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+/* 最新动态-Tab切换卡 激活状态和鼠标悬停下“新闻”图标 */
+.product-tabs .el-tabs__item.is-active .news-icon,
+.product-tabs .el-tabs__item:hover .news-icon {
+    background-image: url("../../assets/images/pki-web_43.png");
+}
+/* 最新动态-Tab切换卡 激活状态和鼠标悬停下“公告发布信息”图标 */
+.product-tabs .el-tabs__item.is-active .announcement-icon,
+.product-tabs .el-tabs__item:hover .announcement-icon {
+    background-image: url("../../assets/images/pki-web_45.png");
+}
+/* 最新动态-Tab切换卡 结束 */
+/* 最新动态 & 服务与支持 & 关于我们 文字版块div */
+.technical-introduction {
+    margin-top: 15px;
+    padding: 40px;
+    box-sizing: border-box;
+    transition: all 0.3s;
+    border: 1px solid #FFFFFF;
+}
+/* 最新动态 & 服务与支持 & 关于我们 鼠标悬停下文字版块div显示蓝色边框 */
+.technical-introduction:hover {
+    border-color: #0073eb;
+}
+/* 最新动态 鼠标悬停下文字颜色样式 */
+.technical-introduction:hover .technical-introduction-title {
+    color: #0073eb;
+}
+/* 最新动态 文字集合div样式 */
+.technical-introduction-fonts {
+    border-bottom: 1px solid #DEDEDE;
+    height: 50px;
+    position: relative;
+}
+/* 最新动态 文字集合div伪类蓝色色条 */
+.technical-introduction-fonts:before {
+    content: "";
+    width: 47px;
+    height: 4px;
+    background-color: #0073eb;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+/* 服务与支持 & 关于我们 鼠标悬停下文字颜色样式 */
+.techinical-tabs .technical-introduction:hover .technical-introduction-title,
+.about-tabs .technical-introduction:hover .technical-introduction-title {
+    color: #333333;
+}
+/* 服务与支持 & 关于我们 文字集合div样式 */
+.techinical-tabs .technical-introduction-fonts,
+.about-tabs .technical-introduction-fonts,
+.case-details .technical-introduction-fonts,
+.news-details .technical-introduction-fonts {
+    border-bottom: none;
+    height: auto;
+    position: relative;
+}
+/* 服务与支持 & 关于我们 文字集合div伪类去掉蓝色色条 */
+.techinical-tabs .technical-introduction-fonts:before,
+.about-tabs .technical-introduction-fonts:before,
+.case-details .technical-introduction-fonts:before,
+.news-details .technical-introduction-fonts:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+}
+/* 服务与支持 & 关于我们 文字标题 最大宽度100% */
+.techinical-tabs .technical-introduction-title,
+.about-tabs .technical-introduction-title {
+    font-size: 24px;
+    color: #333333;
+    font-weight: bolder;
+    max-width: 100%;
+    text-decoration: none;
+    white-space: nowrap;
+    /* 设置文本不换行 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 0.3s;
+}
+/* 最新动态 文字标题文字样式 */
+.technical-introduction-title {
+    font-size: 24px;
+    color: #333333;
+    font-weight: bolder;
+    max-width: 90%;
+    text-decoration: none;
+    white-space: nowrap;
+    /* 设置文本不换行 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 0.3s;
+}
+/* 最新动态 标题右侧发布日期文字样式 */
+.technical-introduction-date {
+    line-height: 50px;
+    font-size: 16px;
+    color: #666666;
+    text-align: right;
+}
+/* 最新动态 & 服务与支持 & 关于我们 正文文字样式 */
+.technical-introduction-text {
+    color: #666666;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 20px;
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+/* 关于我们 正文文字去掉超出三行显示省略号样式 */
+.case-details .technical-introduction-text,
+.news-details .technical-introduction-text,
+.about-tabs .technical-introduction-text {
+    color: #666666;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 20px;
+    text-align: justify;
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: none;
+    overflow: unset;
+}
+/* 关于我们 分页div去掉底部内边距样式 */
+.about-tabs .pagination {
+    margin-top: 40px;
+    padding-bottom: 0px;
+}
+/* 最新动态 & 服务与支持 & 关于我们 分页div */
+.pagination {
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+/* 最新动态-Tab切换卡 结束 */
+/* 关于我们-Tab切换卡 开始 */
+/* 关于我们-Tab切换卡 “关于XX”图标 */
+.about-us-icon {
+    background-image: url("../../assets/images/pki-web_40.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+/* 关于我们-Tab切换卡 “资质与荣誉”图标 */
+.qualification-icon {
+    background-image: url("../../assets/images/pki-web_32.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+/* 关于我们-Tab切换卡 “客户案例”图标 */
+.customer-icon {
+    background-image: url("../../assets/images/pki-web_33.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+/* 关于我们-Tab切换卡 “联系我们”图标 */
+.contact-icon {
+    background-image: url("../../assets/images/pki-web_34.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* 关于我们-Tab切换卡 激活状态和鼠标悬停下“关于XX”图标 */
+.product-tabs .el-tabs__item.is-active .about-us-icon,
+.product-tabs .el-tabs__item:hover .about-us-icon {
+    background-image: url("../../assets/images/pki-web_35.png");
+}
+/* 关于我们-Tab切换卡 激活状态和鼠标悬停下“资质与荣誉”图标 */
+.product-tabs .el-tabs__item.is-active .qualification-icon,
+.product-tabs .el-tabs__item:hover .qualification-icon {
+    background-image: url("../../assets/images/pki-web_37.png");
+}
+/* 关于我们-Tab切换卡 激活状态和鼠标悬停下“客户案例”图标 */
+.product-tabs .el-tabs__item.is-active .customer-icon,
+.product-tabs .el-tabs__item:hover .customer-icon {
+    background-image: url("../../assets/images/pki-web_39.png");
+}
+/* 关于我们-Tab切换卡 激活状态和鼠标悬停下“联系我们”图标 */
+.product-tabs .el-tabs__item.is-active .contact-icon,
+.product-tabs .el-tabs__item:hover .contact-icon {
+    background-image: url("../../assets/images/pki-web_38.png");
+}
+/* 关于我们-Tab切换卡 结束 */
+/* 服务与支持 & 关于我们 页面内容区外层div样式 */
+.product-content {
+    padding: 40px 0;
+    overflow: hidden;
+}
+/* 关于我们-关于XX “公司简介”右侧图片 */
+.about-introdection img {
+    width: 300px;
+    margin: 30px 0 0px 28px;
+}
+/* 关于我们-联系我们 “公司地址”表格距离顶部外边距30px */
+.technical-introduction-table {
+    margin-top: 30px;
+}
+/* 关于我们-联系我们 “公司地址”表格去掉默认行伪类边框 */
+.technical-introduction-table .el-table:before {
+    width: 0;
+    height: 0;
+}
+/* 关于我们-联系我们 “公司地址”去掉表格组件默认边框 */
+.technical-introduction-table .el-table {
+    border: none;
+}
+/* 关于我们-联系我们 “公司地址”表格文字样式 */
+.technical-introduction-table .el-table__row {
+    font-size: 18px;
+    color: #666666;
+}
+/* 关于我们-联系我们 “公司地址”去掉表格行默认边框 */
+.technical-introduction-table .el-table td.el-table__cell,
+.technical-introduction-table .el-table th.el-table__cell.is-leaf {
+    border: none;
+}
+/* 关于我们-联系我们 “公司地址”上边版块div */
+.my-introduction {
+    display: flex;
+    padding: 40px 130px;
+}
+/* 关于我们-联系我们 “公司地址”上边版块div子级 */
+.my-introduction-item {
+    flex: 1;
+    font-weight: bolder;
+}
+/* 关于我们-联系我们 “公司地址”上边版块div子级标题文字样式 */
+.my-introduction-title {
+    color: #333333;
+    font-size: 18px;
+    line-height: 40px;
+}
+/* 关于我们-联系我们 “公司地址”上边版块div子级蓝色数字文字样式 */
+.my-introduction-text {
+    color: #0073eb;
+    font-size: 30px;
+}
+/* 关于我们-资质与荣誉 资质和荣誉版块列表 */
+.qualification-honor-list {
+    margin-top: 40px;
+    overflow: hidden;
+}
+/* 关于我们-资质与荣誉 资质和荣誉版块子级 */
+.qualification-honor-item {
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* 关于我们-资质与荣誉 资质和荣誉版块子级图片 */
+.qualification-honor-photo {
+    padding: 5px;
+    border: 1px solid #C2C2C2;
+    display: inline-block;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+/* 关于我们-资质与荣誉 资质和荣誉版块文字样式 */
+.qualification-honor-title {
+    font-size: 16px;
+    color: #333333;
+}
+/* 关于我们-客户案例 案例列表 */
+.case-list {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+/* 关于我们-案例版块 文字集合 */
+.about-tabs .news-fonts {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    padding: 26px 20px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+/* 关于我们-案例版块 文字集合 */
+.about-tabs .news-time-title {
+    width: 80%;
+    display: inline-block;
+}
+/* 关于我们-案例版块 发布日期文字样式 */
+.about-tabs .time-date {
+    font-size: 12px;
+}
+/* 关于我们-案例版块 标题文字样式 */
+.about-tabs .news-title {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 0px;
+    text-decoration: none;
+    color: #333333;
+    display: block;
+    transition: all 0.3s;
+}
+/* 关于我们-案例版块 鼠标悬停下左侧标题文字样式 */
+.about-tabs .case-item:hover .news-title {
+    color: #0073eb;
+}
+/* 关于我们-案例版块 标题右侧图标样式 */
+.about-tabs .news-jump-icon {
+    float: right;
+    margin-top: 10px;
+    transition: all 0.3s linear;
+}
+/* 关于我们-Tab切换卡 结束 */
+.page {
+    text-align: center;
+}
+
+.page li,
+.page button {
+    border: 1px solid #C2C2C2;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    color: #666666;
+    font-weight: normal;
+    min-width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 2px;
+    margin: 0 3px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.page .el-pager li.active+li {
+    border-left: 1px solid #C2C2C2;
+}
+
+.page li:hover,
+.page button:not(:disabled):hover,
+.page .el-pager li.active {
+    background-color: #0073eb !important;
+    border-color: #0073eb;
+    color: #FFFFFF;
+}
+
+.page button:disabled {
+    background-color: #F1F1F1;
+}
+
+.page .btn-prev {
+    padding-right: 6px;
+    margin-right: 10px;
+}
+
+.page .btn-next {
+    padding-left: 6px;
+    margin-left: 10px;
+}
+
+.news-details {
+    height: auto;
+    min-height: 100%;
+    position: relative;
+}
+
+.details-content,
+.details-main {
+    padding-bottom: 210px;
+}
+
+.details-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 320px;
+    width: 100%;
+}
+
+.line-mar {
+    margin-bottom: 20px;
+}
+
+.line-mar:last-child {
+    margin-bottom: 0;
+}
+
+/* 按钮集合 */
+/* 背景按钮高度、行高 */
+.standard-btn,
+.green-btn,
+.orange-btn,
+.red-btn {
+    height: 40px;
+}
+/* 标准色按钮背景色、边框颜色 */
+.standard-btn {
+    background-color: #0073eb;
+    border-color: #0073eb;
+}
+/* 绿色按钮背景色、边框颜色 */
+.green-btn {
+    background-color: #2EB884;
+    border-color: #2EB884;
+}
+/* 橙色按钮背景色、边框颜色 */
+.orange-btn {
+    background-color: #FCA92B;
+    border-color: #FCA92B;
+}
+/* 红色按钮背景色、边框颜色 */
+.red-btn {
+    background-color: #F66464;
+    border-color: #F66464;
+}
+/* 幽灵按钮高度、行高 */
+.standard-ghost-btn.el-button--primary,
+.green-ghost-btn.el-button--primary,
+.orange-ghost-btn.el-button--primary,
+.red-ghost-btn.el-button--primary,
+.standard-ghost-btn.el-button--primary.is-plain,
+.green-ghost-btn.el-button--primary.is-plain,
+.orange-ghost-btn.el-button--primary.is-plain,
+.red-ghost-btn.el-button--primary.is-plain {
+    height: 30px;
+    line-height: 12px;
+}
+/* 标准色幽灵按钮背景色、边框颜色 */
+.standard-ghost-btn.el-button--primary,
+.standard-ghost-btn.el-button--primary.is-plain {
+    background-color: #F5F8FF;
+    border-color: #0073eb;
+    color: #0073eb;
+}
+/* 绿色幽灵按钮背景色、边框颜色 */
+.green-ghost-btn.el-button--primary,
+.green-ghost-btn.el-button--primary.is-plain {
+    background-color: #F4FBF9;
+    border-color: #2EB884;
+    color: #2EB884;
+}
+/* 橙色幽灵按钮背景色、边框颜色 */
+.orange-ghost-btn.el-button--primary,
+.orange-ghost-btn.el-button--primary.is-plain {
+    background-color: #FFFBF4;
+    border-color: #FCA92B;
+    color: #FCA92B;
+}
+/* 红色幽灵按钮背景色、边框颜色 */
+.red-ghost-btn.el-button--primary,
+.red-ghost-btn.el-button--primary.is-plain {
+    background-color: #FFF7F7;
+    border-color: #F66464;
+    color: #F66464;
+}
+/* 鼠标悬停：标准色按钮背景色、边框颜色、文字颜色 */
+.standard-btn.el-button--primary:hover,
+.standard-btn.el-button--primary.is-plain:hover {
+    background-color: #333333;
+    border-color: #333333;
+    color: #FFFFFF;
+}
+/* 鼠标悬停：绿色按钮背景色、边框颜色、文字颜色 */
+.green-btn.el-button--primary:hover,
+.green-btn.el-button--primary.is-plain:hover {
+    background-color: #17A06C;
+    border-color: #2EB884;
+    color: #FFFFFF;
+}
+/* 鼠标悬停：橙色按钮背景色、边框颜色、文字颜色 */
+.orange-btn.el-button--primary:hover,
+.orange-btn.el-button--primary.is-plain:hover {
+    background-color: #EE9311;
+    border-color: #EE9311;
+    color: #FFFFFF;
+}
+/* 鼠标悬停：红色按钮背景色、边框颜色、文字颜色 */
+.red-btn.el-button--primary:hover,
+.red-btn.el-button--primary.is-plain:hover {
+    background-color: #F04747;
+    border-color: #F04747;
+    color: #FFFFFF;
+}
+/* 鼠标悬停：标准色幽灵按钮背景色、边框颜色、文字颜色 */
+.standard-ghost-btn.el-button--primary:hover,
+.standard-ghost-btn.el-button--primary.is-plain:hover {
+    background-color: #0073eb;
+    border-color: #0073eb;
+    color: #FFFFFF;
+}
+/* 鼠标悬停：绿色幽灵按钮背景色、边框颜色、文字颜色 */
+.green-ghost-btn.el-button--primary:hover,
+.green-ghost-btn.el-button--primary.is-plain:hover {
+    background-color: #2EB884;
+    border-color: #2EB884;
+    color: #FFFFFF;
+}
+/* 鼠标悬停：橙色幽灵按钮背景色、边框颜色、文字颜色 */
+.orange-ghost-btn.el-button--primary:hover,
+.orange-ghost-btn.el-button--primary.is-plain:hover {
+    background-color: #FCA92B;
+    border-color: #FCA92B;
+    color: #FFFFFF;
+}
+/* 鼠标悬停：红色幽灵按钮背景色、边框颜色、文字颜色 */
+.red-ghost-btn.el-button--primary:hover,
+.red-ghost-btn.el-button--primary.is-plain:hover {
+    background-color: #F66464;
+    border-color: #F66464;
+    color: #FFFFFF;
+}
+/* 表格右侧“操作”按钮更多按钮展开区域 */
+.more-btns {
+    position: absolute;
+    top: -1px !important;
+    right: 0px;
+    left: auto !important;
+    line-height: 47px;
+    height: 50px;
+    padding: 0 68px 0 30px;
+    box-sizing: border-box;
+    margin-top: 2px;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    background-image: linear-gradient(-90deg, #F5F7FA 90%, rgba(255, 255, 255, 0%));
+    z-index: 9999;
+}
+/* 表单弹窗 -- 开始 */
+/* 弹窗外层div样式 */
+.dialog-content .el-dialog {
+    width: 50%;
+}
+/* 弹窗body体 */
+.dialog-content .el-dialog__body {
+    padding: 20px 30px;
+}
+/* 默认弹窗标题区样式 */
+.dialog-content .el-dialog__header {
+    height: 0px;
+    line-height: 0px;
+    padding: 0;
+}
+/* 弹窗标题区 */
+.dialog-content .technical-introduction-fonts {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+/* 弹窗Form表单 */
+.dialog-content .personal-form {
+    overflow: hidden;
+}
+/* 弹窗表单子级 */
+.dialog-content .el-form-item {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+/* 弹窗表单子级：奇数标签设置右侧内边距 */
+.dialog-content .el-form-item:nth-child(odd) {
+    padding-right: 30px;
+}
+/* 弹窗Input输入框宽度 */
+.dialog-content .personal-form .el-input__inner {
+    width: auto !important;
+}
+/* 弹窗底部按钮水平居中 */
+.dialog-content .dialog-footer {
+    width: 160px;
+    text-align: center;
+    margin: 0 auto;
+}
+/* 表单弹窗 -- 结束 */

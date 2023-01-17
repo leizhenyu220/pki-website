@@ -1,0 +1,293 @@
+/* 首页 -- 开始 */
+/* 首页-大轮播图下边Tab切换卡 开始 */
+/* 首页 & 产品介绍页面 Tabs切换卡“签名服务平台”子级图标 */
+.autograph-icon {
+    background-image: url("../../assets/images/pki-web_12.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+/* 首页 & 产品介绍页面 Tabs切换卡“安全启动认证证书”子级图标 */
+.authentication-icon {
+    background-image: url("../../assets/images/pki-web_17.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+/* 首页 & 产品介绍页面 Tabs切换卡“SHIM/EFI驱动程序文件签名”子级图标 */
+.drive-icon {
+    background-image: url("../../assets/images/pki-web_14.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+/* 首页 & 产品介绍页面 激活状态下的Tabs切换卡“签名服务平台”子级图标 */
+.home-tabs /deep/ .el-tabs__item.is-active .autograph-icon,
+.home-tabs /deep/ .el-tabs__item:hover .autograph-icon {
+    background-image: url("../../assets/images/pki-web_29.png");
+}
+/* 首页 & 产品介绍页面 激活状态下的Tabs切换卡“安全启动认证证书”子级图标 */
+.home-tabs /deep/ .el-tabs__item.is-active .authentication-icon,
+.home-tabs /deep/ .el-tabs__item:hover .authentication-icon {
+    background-image: url("../../assets/images/pki-web_31.png");
+}
+/* 首页 & 产品介绍页面 激活状态下的Tabs切换卡“SHIM/EFI驱动程序文件签名”子级图标 */
+.home-tabs /deep/ .el-tabs__item.is-active .drive-icon,
+.home-tabs /deep/ .el-tabs__item:hover .drive-icon {
+    background-image: url("../../assets/images/pki-web_30.png");
+}
+/* 首页 & 产品介绍页面 Tabs切换卡子级标题文字样式 */
+.tabs-title {
+    font-size: 22px;
+    font-weight: bolder;
+}
+/* 首页-大轮播图下边Tab切换卡 结束 */
+/* 首页-服务与支持 开始 */
+/* 首页 & 产品介绍所有版块标题文字样式 */
+.tachnical-support-title {
+    text-align: center;
+    color: #333333;
+    font-size: 36px;
+    font-weight: bolder;
+    line-height: 80px;
+}
+/* 首页-服务与支持版块 跳转页面版块集合 */
+.tachnical-support-jumps {
+    margin-top: 100px;
+    display: flex;
+}
+/* 首页-服务与支持版块 跳转页面版块子级 */
+.tachnical-support-jump {
+    flex: 1;
+    padding: 60px 0px;
+    background-color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+/* 首页-服务与支持版块 跳转页面版块第一、二、三、四个子级右侧外边距10px */
+.tachnical-support-jump:nth-child(1),
+.tachnical-support-jump:nth-child(2),
+.tachnical-support-jump:nth-child(3),
+.tachnical-support-jump:nth-child(4) {
+    margin-right: 10px;
+}
+/* 首页-服务与支持版块 跳转页面版块图片 */
+.tachnical-support-photo {
+    width: 120px;
+    height: 120px;
+    box-sizing: border-box;
+    padding: 40px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, #e9f4ff, #FFFFFF);
+    margin: 0 auto;
+}
+/* 首页-服务与支持版块 鼠标悬停下的跳转页面版块子级背景色 */
+.tachnical-support-jump:hover {
+    background-color: #0073eb;
+}
+/* 首页-服务与支持版块 鼠标悬停下的跳转页面版块子级文字颜色 */
+.tachnical-support-jump:hover .tachnical-support-jump-title,
+.tachnical-support-jump:hover .tachnical-support-jump-english {
+    color: #FFFFFF;
+}
+/* 首页-服务与支持版块 跳转页面版块图片样式 */
+.tachnical-support-photo img {
+    width: auto;
+    height: 45px;
+    /* 首页-服务与支持版块 跳转页面版块PNG图片阴影 */
+    filter: drop-shadow(0px 4px 6px rgba(0, 115, 235, 30%));
+}
+/* 首页-服务与支持版块 跳转页面版块文字集合 */
+.tachnical-support-jump-fonts {
+    margin-top: 40px;
+}
+/* 首页-服务与支持版块 跳转页面版块标题文字 */
+.tachnical-support-jump-title {
+    color: #666666;
+    font-size: 22px;
+    font-weight: bolder;
+    white-space: pre-wrap;
+}
+/* 首页-服务与支持版块 跳转页面版块英文 */
+.tachnical-support-jump-english {
+    color: #999999;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+/* 首页-服务与支持 结束 */
+/* 首页-最新动态 开始 */
+/* 首页-最新动态版块 */
+.news-content {
+    margin-top: 100px;
+    overflow: hidden;
+}
+/* 首页-最新动态版块 左侧集合 */
+.news-photo_text {
+    width: 50%;
+    position: relative;
+    display: inline-block;
+}
+/* 首页-最新动态版块 左侧图片 */
+.news-photo_text img {
+    width: 100%;
+}
+/* 首页-最新动态版块 左侧文字集合 */
+.news-fonts {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    padding: 26px 20px;
+    background-color: #0073eb;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+/* 首页-最新动态版块 标题、发布日期文字样式 */
+.news-time-title {
+    width: 80%;
+    display: inline-block;
+}
+/* 首页-最新动态版块 发布日期文字样式 */
+.time-date {
+    font-size: 12px;
+}
+/* 首页-最新动态版块 标题文字样式 */
+.news-title {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 6px;
+    text-decoration: none;
+    color: #333333;
+    display: block;
+    transition: all 0.3s;
+}
+/* 首页-最新动态版块 左侧标题文字样式 */
+.news-photo_text .news-title {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 6px;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    transition: all 0.3s;
+}
+/* 首页-最新动态版块 鼠标悬停下左侧标题文字样式 */
+.news-photo_text:hover .news-title {
+    color: #333333;
+}
+/* 首页-最新动态版块 鼠标悬停下右侧列表标题文字样式 */
+.news-item:hover .news-title {
+    color: #0073eb;
+}
+/* 首页-最新动态版块 标题右侧图标 */
+.news-jump-icon {
+    float: right;
+    margin-top: 22px;
+    transition: all 0.3s linear;
+}
+/* 首页-最新动态版块 右侧新闻列表 */
+.news-list {
+    width: 50%;
+    float: right;
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+/* 首页-最新动态版块 右侧新闻列表子级 */
+.news-item {
+    height: 188px;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+/* 首页-最新动态版块 右侧新闻列表第一个子级下边框样式 */
+.news-item:first-child {
+    border-bottom: 1px solid #999999;
+}
+/* 首页-最新动态版块 右侧新闻列表标题右侧图标 */
+.news-item .news-jump-icon {
+    margin-right: 10px;
+}
+/* 首页-最新动态版块 鼠标悬停下标题右侧图标向右移动动画样式 */
+.news-photo_text:hover .news-jump-icon,
+.news-item:hover .news-jump-icon,
+.case-item:hover .news-jump-icon {
+    transform: translateX(10px);
+    transition: all 0.3s linear;
+}
+
+/* 首页-最新动态 结束 */
+/* 首页-关于我们 开始 */
+/* 首页-关于我们版块 数字集合 */
+.about-nums {
+    margin-top: 100px;
+    display: flex;
+}
+/* 首页-关于我们版块 数字子级 */
+.about-num-item {
+    text-align: center;
+    flex: 1;
+}
+/* 首页-关于我们版块 数字文字样式 */
+.about-num {
+    color: #0073eb;
+    font-weight: bolder;
+}
+/* 首页-关于我们版块 数字文字子级div样式 */
+.about-num div {
+    display: inline-block;
+}
+/* 首页-关于我们版块 数字右侧单位文字样式 */
+.company {
+    font-size: 24px;
+}
+/* 首页-关于我们版块 数字下边文字样式 */
+.about-num-text {
+    color: #333333;
+    font-weight: bolder;
+    font-size: 18px;
+}
+/* 首页-关于我们 结束 */
+/* 首页-客户案例 开始 */
+/* 首页-客户案例版块 案例div集合 */
+.case-content {
+    margin-top: 100px;
+    position: relative;
+}
+/* 首页-客户案例 结束 */
+/* 首页-联系我们 开始 */
+/* 首页-联系我们版块 外层div */
+.contact-bg {
+    background-image: url("../../assets/images/pki-web_78.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+/* 首页-联系我们版块 所有文字颜色 */
+.contact-bg .tachnical-support-fonts div {
+    color: #FFFFFF;
+}
+/* 首页-联系我们版块 “合作咨询”按钮样式 */
+.contact-btn {
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 0;
+    background-color: #0073eb;
+    margin-top: 30px;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+/* 首页-联系我们版块 鼠标悬停下“合作咨询”按钮样式 */
+.contact-btn:hover {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+/* 首页-联系我们 结束 */
+/* 首页 -- 结束 */
+/* 首页 & 产品介绍 & 最新动态 页面内容区外层div去掉底部内边距 */
+.pad-b0 .product-content {
+    padding: 40px 0 0 0;
+}
